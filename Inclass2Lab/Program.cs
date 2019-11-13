@@ -25,7 +25,7 @@ namespace Inclass2Lab
             Assignment ass1 = new Assignment("PHP first assignment",php,100,grades);
             Printer.PrintStudentNames(php);
             Printer.PrintAssignmentGrades(ass1);
-
+            Printer.PrintAssignmentStudentGrade(ass1, "A01083110");
 
         }
     }
